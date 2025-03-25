@@ -4,46 +4,155 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
+    <style>
+        body {
+            background-color: rgb(220, 242, 248);
+        }
+        img {
+            height: 200px;
+            width: 200px;
+            border-radius: 50px;
+            padding: 10px;
+            margin-left: 550px;
+            border: 1px solid rgba(2, 2, 2, 0.575);
+        }
+        .heading {
+            color: rgba(2, 2, 2, 0.575);
+            text-align: center;
+        }
+        p {
+            text-align: center;
+            
+        }
+        ul {
+            text-align: center;
+        }
+        .tags {
+          color: rgb(7, 171, 216);
+           background-color: rgb(255, 255, 255);
+        }
+        .structure {
+            background-color:rgb(255, 255, 255);
+            color: rgb(7, 171, 216);
+        }
+        .media {
+          height: 50px;
+          width: 250px;
+          align-content: center;
+          margin-left: 570px;
+        }
+        .media a {
+           text-decoration: none;
+           border: 1px solid rgba(2, 2, 2, 0.575);
+           padding: 3px;
+           margin: 5px;
+           border-radius: 5px;
+           color: rgb(97, 82, 226);
+           
+        }
+        .media a:hover {
+            background-color: rgb(70, 70, 235);
+            color: white;
+            border-radius: 3px;
+            border-color: rgb(0, 0, 0);
+        }
+    </style>
 </head>
 <body>
-    <h1>About Me</h1>
+    <img src="images/profile-image.JPG" alt="">
+    <h1 class="heading">About Me</h1>
 
-    <h2>Name:</h2>
-    <p><!-- Your Name Here --></p>
+    <!-- Your Name Here -->
+    <h2 class="heading">Name:</h2>
+    <p>Aminu Gambo Abubakar</p>
 
-    <h2>Department:</h2>
-    <p><!-- Your Department Here --></p>
+    <!-- Your Department Here -->
+    <h2 class="heading">Department:</h2>
+    <p>Computer Science</p>
 
-    <h2>Level:</h2>
-    <p><!-- Your Level Here --></p>
+    <h2 class="heading">Level:</h2>
+    <p>200L</p>
 
-    <h2>Career Goals:</h2>
-    <p><!-- Briefly mention your career aspirations --></p>
+    <!-- Briefly mention your career aspirations -->
+    <h2 class="heading">Career Goals:</h2>
+    <p>my career aspirations align with becoming a tech professional with expertise in front-end development,back-end development, UI/UX design, Python programming, and graphic design. I am also keen on building a strong portfolio and collaborating with peers to enhance my skills. my passion for technology and innovation suggests that i may pursue roles such as web developer, UI/UX designer, or software engineer in the future.</p>
 
-    <h2>Bio:</h2>
-    <p><!-- Share something about yourself --></p>
+    <!-- Share something about yourself -->
+    <h2 class="heading">Bio:</h2>
+    <p>I am a passionate tech enthusiast with a strong interest in programming, front-end development, UI/UX design, and graphic design. I am actively learning Python programming and working on building my portfolio website to showcase my projects. I enjoy collaborating with peers and have created a WhatsApp group to share ideas and learn together. My curiosity for modern technology and innovation drives my ambition to become a skilled professional in the tech industry.</p>
 
-    <h2>Fun Fact:</h2>
-    <p><!-- Mention a fun or interesting fact about you --></p>
+    <!-- Mention a fun or interesting fact about you -->
+    <h2 class="heading">Fun Fact:</h2>
+    <p>A fun fact about me is that I enjoy collaborating and sharing ideas with others—I even created a WhatsApp group with my school colleagues to learn and grow together in tech! I love exploring new technologies and constantly challenging myself to improve my design and coding skills.</p>
 
-    <h2>What I Learned from the Previous Session:</h2>
-    <p><!-- Reflect on the key takeaway from your last learning session --></p>
+<!-- Reflect on the key takeaway from your last learning session -->
+    <h2 class="heading">What I Learned from the Previous Session:</h2>
 
-    <h2>Tools for Web Development:</h2>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Git and GitHub</li>
-        <li>Bootstrap</li>
-        <li>VS Code</li>
-    </ul>
+    <div class="tags">
+        <h4 class="heading"> HTML Tags </h4>
+        
+            <p><b>html:</b>b> Defines the root of an HTML document.</p>
+            <p><b>head:</b>b> Contains metadata, title, and links to styles/scripts.</lp>
+            <p><b>body:</b>b> Contains the visible content of the page.</p>
+            <p><b>h1 p h6:</b>b> Heading tags, where h1 is the largest and h6 is the smallest.</p>
+            <p><b>p:</b>b> Defines a paragraph.</p>
+            <p><b>a:</b>b> Creates hyperlinks.</p>
+            <p><b>img:</b>b> Inserts images.</p>
+            <p><b>ul, ol, li:</b>b> Lists (unordered and ordered).</p>
+            <p><b>table, tr, td:</b>b> Used to create tables.</p>
+            <p><b>form, input, button:</b>b> Used for user input and forms.</p>
+            <p><b>div and span:</b>b> Used for layout and styling.</p>
+        
+    </div>
+        
+      <div class="tools-used">
+            <h4 class="heading">Tools Used to Build a Website</h4>
+            
+                <p>Text Editors: VS Code, Sublime Text, Notepad++</p>
+                <p> Browsers: Chrome, Firefox, Edge (to preview the website)</p>
+                <p> Developer Tools: Inspect element (Chrome DevTools)</p>
+                <p>Version Control: Git and GitHub</li>
+                <p>Frameworks & Libraries: Bootstrap, CSS frameworks</p>
+    
+      </div>
+            
+       <h4 class="heading"> What is the Internet?</h4>
+            <p>
+                The internet is a global network of computers that communicate using protocols like HTTP and TCP/IP.
+                It allows users to access websites, send emails, and share data through interconnected networks.
+                Websites are hosted on servers, and users access them using a browser
+            </p>
+        
+        <div class="structure">
+            <h4 class="heading">Structure of an HTML Document</h4>
+        
+            <p>DOCTYPE: Declares the document type.</p> 
+            <p>HTML Element: The root element of the page.</p>
+            <p>Head Section: Contains metadata and links to styles/scripts.</p>
+            <p>Body Section: Contains all the visible content of the page.</p>
 
-    <h2>Social Media Links:</h2>
-    <ul>
-        <li><a href="https://github.com/yourusername" target="_blank">GitHub</a></li>
-        <li><a href="https://twitter.com/yourusername" target="_blank">Twitter</a></li>
-        <li><a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a></li>
-    </ul>
+        </div>
+
+       <div class="tools">
+        <h4 class="heading">Tools for Web Development:</h4>
+            
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JavaScript</p>
+                <p>Git and GitHub</p>
+                <p>Bootstrap</p>
+                <p>VS Code</p>
+    
+       </div>
+
+    
+        <h2 class="heading">Social Media Links:</h2>
+    <div class="media">
+
+        <a href="https://github.com/Aminullah-01" target="_blank">GitHub</a>
+        <a href="https://x.com/Aminullah7360" target="_blank">X</a>
+        <a href="https://www.linkedin.com/in/aminu-gambo-abubakar-073139340" target="_blank">LinkedIn</a>
+        
+    </div>
 </body>
 </html>
